@@ -1,4 +1,12 @@
 #! /usr/bin/env python
+# added this to avoid "Abort Trap 6" error
+import numpy as np
+import caffe
+import cv2
+import scipy
+import skimage
+# added this to avoid "Abort Trap 6" error
+
 
 import os
 from live_vis import LiveVis
